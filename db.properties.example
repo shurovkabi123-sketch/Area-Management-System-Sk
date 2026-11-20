@@ -1,0 +1,13 @@
+# Copy this file to "db.properties" and fill in your own values.
+db.url=jdbc:mysql://localhost:3306/area_complaint_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+db.user=root
+db.password=YOUR_PASSWORD_HERE
+upload.dir=uploads
+
+# Email notifications and password reset (Gmail example)
+# Use a Google App Password, NOT your normal Gmail password.
+smtp.host=smtp.gmail.com
+smtp.port=587
+smtp.user=your-email@gmail.com
+smtp.password=your-16-character-app-password
+smtp.from=your-email@gmail.com
